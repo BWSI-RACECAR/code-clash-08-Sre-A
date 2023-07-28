@@ -1,3 +1,4 @@
+
 """
 Copyright MIT BWSI Autonomous RACECAR Course
 MIT License
@@ -34,16 +35,8 @@ Input: 404 ; Output: 0.33
 
 class Solution:    
     def optimizescan(self, battcap):
-        # Input type: Integer
-        # return type: float
-        battcap = int(input())
-        tdist = int(input())
-        sdist = int(input())
-
-        print(battcap / 250 * tdist * sdist)
-        #TODO: Write code below to return a float with the solution to the prompt.
-
-        pass 
+        return(((battcap/500)**2)/2)
+    
 
 def main():
     battcap = int(input())
@@ -54,3 +47,4 @@ def main():
 
 if __name__ and "__main__":
     main()
+    
